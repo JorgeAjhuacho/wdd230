@@ -1,0 +1,6 @@
+/* Styles for header */
+.grid-header{
+    background-color: bisque;
+    display:grid;
+    grid-template-columns: auto auto;
+}
