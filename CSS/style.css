@@ -1,6 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 /* Styles for header */
+
 .grid-header{
     background-color: bisque;
     display:grid;
     grid-template-columns: auto auto;
+    border-radius: 15px;
+    width: 500px;
+}
+
+.image-headerr{
+    grid-template-columns: 1/2;
+    align-self: center;
+    justify-self: center;
+    
+}
+.image-headerr img{
+    width: 100px;
+    height: 120px;
+    margin: 10px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(99, 99, 99);
+}
+
+.paragraph-header{
+    grid-template-columns: 2/3;
+    text-shadow: 1px 1px 1px white;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 1.5em;
+    color: black;
+}
+
+.paragraph-lessons{
+    font-size:1.3em;
+    font-family: 'Inconsolata', monospace;
+}
+
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
+}
+.footer-paragraph{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer{
+    background-color:bisque;
+    border-radius: 15px;
+    padding: 20px;
+    width: 460px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1em;
+    text-align: center;
 }
