@@ -1,0 +1,27 @@
+.card section{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+.card h2{
+    background-color: rgb(149,164,114);
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 0.8rem 0;
+}
+
+@media only screen and (min-width: 380px){
+    .card {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 15px;
+    }
+
+    .card section{
+        box-shadow: 1px 1px 1px black;
+    }
+}
